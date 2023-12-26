@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "PPGoshaSans-Bold";
+    src: url(../font/TTF/TTF/PPGoshaSans-Bold.ttf) format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GoshaSans-Bold";
+    src: url(../font/TTF/GoshaSans-Bold.ttf) format("truetype");
+    font-style: normal;
+}

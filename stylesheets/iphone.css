@@ -1,0 +1,411 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* iPhone Portrait */
+    
+    .line {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8 {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-family: "PPGoshaSans-Bold";
+        font-size: 70px;
+        text-transform: uppercase;
+        color: white;
+        flex: none;
+    }
+
+    .l1 {
+        background-color: #8000FF;
+    }
+    .l2 {
+        background-color: #097441;
+    }
+    .l3 {
+        background-color:#FC5812;
+    }
+    .l4 {
+        background-color: #FDB600;
+    }
+    .l5 {
+        background-color: #FC5812;
+    }
+    .l6 {
+        background-color: #8000FF;
+    }
+    .l7 {
+        background-color: #FDB600;
+    }
+    .l8 {
+        background-color:#097441;
+    }
+
+    .face {    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+    }
+
+    .faces {
+        width: 1440px;
+        height: 712px;
+        display: block;
+        position: relative;
+        background: url(../img/faces.jpg);
+        animation: faces 10s infinite linear;
+    }
+
+    @keyframes faces {
+        0% {background-position: 0px top;}
+        100% {background-position: -2834px top;}
+    }
+
+    .eyes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        margin-top: -170px;
+    }
+
+    .ey {
+        height: 684px;
+        width: 1440px;
+        background: url(../img/eyes.png); 
+        background-color: black;
+        scale: 0.37;
+
+    }
+
+    .e1 {
+        display: flex;
+        flex: none;
+        margin: 74px 86px;
+        animation: sc1 3s infinite;
+    }
+
+    @keyframes sc1 {
+        0% {scale: 100%;}
+        50% {scale: 75%}
+        100% {scale: 100%}
+    }
+
+    .e2 {
+        display: flex;
+        animation: sc1 4s infinite;
+        margin-top: -350px;
+        margin-left: 600px;
+    }
+
+
+    .e3 {
+        display: flex;
+        margin-left: 420px;
+        margin-top: 40px;
+        animation: sc1 5s infinite;
+    }
+
+    .e4 {
+        width: 426px;
+        height: 383px;
+        border-radius: 426px;
+        margin-left: 700px;
+        margin-top: -250px;
+        display: flex;
+        animation: sc1 6s infinite;
+        scale: 0.33;
+    }
+
+    .e5 {
+        display: flex;
+        margin-left: 180px;
+        margin-top: -80px;
+        animation: sc1 7s infinite;
+    }
+
+    .e6 {
+        display: flex;
+        flex: none;
+        margin-left: 650px;
+        margin-top: -160px;
+        animation: sc1 2s infinite;
+    }
+
+    .choose {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        margin-top: -180px;
+    }
+
+    .choose2 {
+        width: 1440px;
+        height: 180px;
+        background-color: #ffffff;
+        overflow: hidden;
+        display: block;
+        justify-content: center;
+    }
+
+    p {
+        position:relative;
+        font-family: "GoshaSans-Bold";
+        font-size: 135px;
+        white-space: nowrap;
+        animation: choose 3s infinite linear;
+    }
+
+    @keyframes choose {
+        0% {left: -1440px}
+        100% {left: 100%}
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -150px;
+    }
+
+    .bl1 {
+        display: flex;
+        justify-content: center;
+        flex: none;
+        scale: 0.33;
+    }
+
+    .bl11 {
+        width: 360px;
+        height: 368px;
+        background: url(../img/block.jpg);
+    }
+
+    .bl12 {
+        width: 180px;
+        height: 368px;
+        background-color:#8000FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        animation: color 2s steps(1) infinite;
+    }
+
+    .bl123 {
+        width: 159px;
+        height: 326px;
+        background: url(../img/nose.png);
+    }
+
+    @keyframes color {
+        0% {background-color: #8000FF;}
+        50% {background-color: #FC5812;}
+        100% {background-color: #8000FF;}
+    }
+
+    .bl13 {
+        width: 180px;
+        height: 368px;
+        background: url(../img/bl13.jpg);
+    }
+
+    .bl141 {
+        width: 360px;
+        height: 183px;
+        background: url(../img/bl14.jpg);
+    }
+
+    .bl142 {
+        width: 360px;
+        height: 183px;
+        background-color: #FC5812;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: color2 2s steps(1) infinite;
+    }
+
+    @keyframes color2 {
+        0% {background-color: #FC5812;}
+        50% {background-color: #097441;}
+        100% {background-color: #FC5812;}
+    }
+
+    .bl1421 {
+        width: 340px;
+        height: 84px;
+        background: url(../img/us.png);
+    }
+
+    .lips {
+        width: 356px;
+        height: 371px;
+        background: url(../img/lips.jpg);
+    }
+
+    .bl2 {
+        width: 1440px;
+        height: 184px;
+        margin-left: 4px;
+        margin-top: -185px;
+        background: url(../img/bl2.jpg);
+        overflow: hidden;
+        scale: 0.33;
+    }
+
+    .bl3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        scale: 0.33;
+        margin-top: -310px;
+    }
+
+    .nose2 {
+        width: 899px;
+        height: 731px;
+        margin-top: -5px;
+        background: url(../img/noses.jpg);
+    }
+
+    .bl32 {
+        width: 538px;
+        height: 740px;
+        background: url(../img/eyes2.jpg);
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: none;
+        scale: 0.33;
+        margin-top: -740px;
+    }
+
+    .change {
+        width: 1440px;
+        height: 350px;
+        background: url(../img/men.jpg);
+        margin-top: -10px;
+    }
+
+    .change2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+    }
+
+
+    .parts {
+        width: 1085px;
+        height: 1134px;
+        animation: parts 3s infinite ease-in-out;
+    }
+
+    .part1 {
+        width: 276px;
+        height: 334px;
+        background: url(../img/part1.jpg);
+        position: absolute;
+        margin-left: 178px;
+        animation: part1 3s infinite ease-in-out;
+    }
+
+    /* .parts:hover ~.part1 {
+        position: relative;
+        top: 3500px;
+        margin-left: 178px;
+    } */
+
+    /* @keyframes part1 {
+        0% {top: 3385px; margin-left: 178px;}
+        100% {top: 3479px; margin-left: 204px;}
+    } */
+
+    .part2 {
+        width: 503px;
+        height: 180px;
+        background: url(../img/part2.jpg);
+        position: absolute;
+        margin-left: 582px;
+        animation: part2 3s infinite ease-in-out;
+    }
+
+    .part3 {
+        width: 158px;
+        height: 448px;
+        background: url(../img/part3.jpg);
+        position:absolute;
+        top: 750px;
+        animation: part3 3s infinite ease-in-out;
+    }
+
+
+    .part4 {
+        width: 225px;
+        height: 373px;
+        background: url(../img/part4.png);
+        position: absolute;
+        top: 750px;
+        margin-left: 241px;
+        animation: part4 3s infinite ease-in-out;
+    }
+
+    .part5 {
+        width: 323px;
+        height: 232px;
+        background: url(../img/part5.png);
+        position: absolute;
+        top: 750px;
+        margin-left: 525px;
+        animation: part5 3s infinite ease-in-out;
+    }
+
+    .part6 {
+        width: 123px;
+        height: 256px;
+        background: url(../img/part6.png);
+        position: absolute;
+        top: 1000px;
+        margin-left: 596px;
+        animation: part6 3s infinite ease-in-out;
+    }
+
+    .part7 {
+        width: 190px;
+        height: 261px;
+        background: url(../img/part7.png);
+        position: absolute;
+        top: 1000px;
+        margin-left: 895px;
+        animation: part7 3s infinite ease-in-out;
+    }
+
+    .part8 {
+        width: 382px;
+        height: 133px;
+        background: url(../img/part8.png);
+        position: absolute;
+        top: 1388px;
+        margin-left: 319px;
+        animation: part8 3s infinite ease-in-out;
+    }
+
+    .change3 {
+        width: 350px;
+        height: 1120px;
+        background: url(../img/change3.png);
+        margin-top: 15px;
+    }
+
+  }
